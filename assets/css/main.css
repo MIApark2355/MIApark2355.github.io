@@ -2489,7 +2489,7 @@ input, select, textarea {
 
 	.article .tooltip {
 		visibility: hidden;
-		width: 120px;
+		width: 200px;
 		background-color: black;
 		color: white;
 		text-align: center;
@@ -2502,6 +2502,7 @@ input, select, textarea {
 		margin-left: -60px; /* Use half of the width defined above */
 		opacity: 0;
 		transition: opacity 0.3s;
+		font-size: larger;
 	}
 	
 	.article:hover .tooltip {
